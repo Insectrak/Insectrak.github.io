@@ -9,20 +9,20 @@ const Header = () => {
             <ul>
               <li>
                 <span className="active" id="home-link">
-                  Home
+                  Inicio
                 </span>
               </li>
               <li>
-                <span id="about-link">About</span>
+                <span id="about-link">Sobre mí</span>
               </li>
               <li>
-                <span id="portfolio-link">Portfolio</span>
+                <span id="portfolio-link">Portafolio</span>
               </li>
               <li>
-                <span id="contact-link">Contact</span>
+                <span id="contact-link">Contacto</span>
               </li>
               <li>
-                <span id="blog-link">Blog</span>
+                <span id="blog-link">Extras</span>
               </li>
             </ul>
           </nav>
@@ -31,7 +31,7 @@ const Header = () => {
         {/* FREELANCE STARTS */}
         <div className="mail">
           <p>
-            Email :<span> contact@steven.net</span>
+            Email :<span> fabianeriosm@gmail.com</span>
           </p>
         </div>
         {/* FREELANCE ENDS */}
@@ -47,27 +47,27 @@ const Header = () => {
           <ul className="list-unstyled" id="menu">
             <li>
               <a href="#home">
-                <span>Home</span>
+                <span>Inicio</span>
               </a>
             </li>
             <li>
               <a href="#my-photo">
-                <span>About</span>
+                <span>Sobre mí</span>
               </a>
             </li>
             <li>
               <a href="#portfolio">
-                <span>Portfolio</span>
+                <span>Portafolio</span>
               </a>
             </li>
             <li>
               <a href="#contact">
-                <span>Contact</span>
+                <span>Contacto</span>
               </a>
             </li>
             <li>
               <a href="#blog">
-                <span>Blog</span>
+                <span>Extra</span>
               </a>
             </li>
           </ul>
