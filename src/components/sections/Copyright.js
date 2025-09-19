@@ -7,19 +7,19 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        <span>© {new Date().getFullYear()} Steven Walker</span>
+        <span>© {new Date().getFullYear()} Fabián Ríos</span>
         <span>
-          Designed By{" "}
+          Hecho por{" "}
           <a
             target="_blank"
-            href="https://themeforest.net/user/Codeefly/portfolio"
+            href="https://github.com/Insectrak"
           >
-            Codeefly
+            Fabián Ríos
           </a>
         </span>
         <ul>
           <li>
-            <a href="#">
+            <a href="https://github.com/Insectrak">
               <i className="fa-brands fa-github" />
             </a>
           </li>
