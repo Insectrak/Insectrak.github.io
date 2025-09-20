@@ -924,7 +924,7 @@ header .mobile-menu {
 /*** FACTS SECTION ***/
 
 .facts {
-  background-image: url(../assets/backgrounds/facts.jpg);
+  /*background-image: url(../assets/backgrounds/facts.jpg); */
   background-attachment: fixed;
   position: relative;
   background-position: center;
@@ -1344,7 +1344,7 @@ header .mobile-menu {
 /*** TESTIMONIALS SECTION ***/
 
 .testimonials {
-  background-image: url(../assets/backgrounds/testimonials.jpg);
+  /* background-image: url(../assets/backgrounds/testimonials.jpg); */
   background-size: cover;
   background-attachment: fixed;
   position: relative;

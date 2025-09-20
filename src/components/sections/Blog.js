@@ -8,7 +8,7 @@ const Blog = () => {
         <h3>
           <span>
             <span className="animated-layer fade-in-left-animation fadeInUp wow">
-              Latest Posts
+              Extras
             </span>
           </span>
         </h3>

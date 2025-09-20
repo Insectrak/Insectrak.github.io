@@ -7,7 +7,7 @@ const Contact = () => {
         <h3>
           <span>
             <span className="animated-layer fade-in-left-animation fadeInUp wow">
-              Get in touch
+              Contacto
             </span>
           </span>
         </h3>
@@ -22,7 +22,7 @@ const Contact = () => {
             <i className="fa fa-phone" />
             <p>
               <span className="small-text">phone</span>
-              +216 21 184 010
+              +56 9 8394 9088
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -30,8 +30,8 @@ const Contact = () => {
           <div className="animated-layer fade-in-up-animation fadeInUp wow">
             <i className="fa fa-location-dot" />
             <p>
-              <span className="small-text">address</span>
-              London, England
+              <span className="small-text">Lugar</span>
+              Iquique, Chile
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -42,17 +42,17 @@ const Contact = () => {
             <i className="fa fa-envelope" />
             <p>
               <span className="small-text">email</span>
-              contact@steven.net
+              fabianeriosm@gmail.com
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
           {/* CONTACT ITEM STARTS */}
           <div className="animated-layer fade-in-up-animation fadeInUp wow">
             <i className="fa fa-share-nodes" />
-            <span className="small-text">follow me</span>
+            <span className="small-text">Sígueme</span>
             <ul className="social">
               <li>
-                <a href="#">
+                <a href="https://github.com/Insectrak">
                   <i className="fa-brands fa-github" />
                 </a>
               </li>

@@ -11,7 +11,7 @@ const colors = [
   { id: 8, name: "goldenrod" },
 ];
 const Switcher = () => {
-  const [color, setColor] = useState("yellow");
+  const [color, setColor] = useState("blue");
   const [toggle, setToggle] = useState(false);
 
   return (

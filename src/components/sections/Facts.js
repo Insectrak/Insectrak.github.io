@@ -1,6 +1,14 @@
 const Facts = () => {
   return (
     <section className="facts">
+      <video
+        className="background-video"
+        src="/assets/video2.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       <div className="flex-column-mobile">
         {/* SINGE FACT ITEM STARTS */}
         <div

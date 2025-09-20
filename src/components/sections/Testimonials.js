@@ -1,6 +1,14 @@
 const Testimonials = () => {
   return (
     <section className="testimonials">
+      <video
+        className="background-video"
+        src="/assets/video3.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       <div className="testimonials-container flex-column-mobile">
         {/* TESTIMONIAL ITEM STARTS */}
         <div className="quote-container animated-layer fade-in-right-animation fadeInUp wow">

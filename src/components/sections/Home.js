@@ -1,6 +1,18 @@
+import React from 'react';
+import CanvasAnimation from './CanvasAnimation'; // Importación del componente
+
 const Home = () => {
   return (
     <section className="home image" id="home">
+      <CanvasAnimation />
+      <video
+        className="background-video"
+        src="/assets/home.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       <div>
         <div className="position-relative">
           <h1>

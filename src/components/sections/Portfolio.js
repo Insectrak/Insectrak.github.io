@@ -13,7 +13,7 @@ const Portfolio = () => {
         <h3>
           <span>
             <span className="animated-layer fade-in-left-animation fadeInUp wow">
-              My Portfolio
+              Proyectos
             </span>
           </span>
         </h3>
