@@ -1,4 +1,28 @@
+import Skills from '../skills';
+
+const skills = [
+  { id: 1, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", alt: "HTML5", level: "EXPERTO" },
+  { id: 2, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", alt: "CSS3", level: "EXPERTO" },
+  { id: 3, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", alt: "JavaScript", level: "EXPERTO" },
+  { id: 4, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg", alt: "JQuery", level: "EXPERTO" },
+  { id: 5, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg", alt: "Git", level: "EXPERTO" },
+  { id: 6, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", alt: "React", level: "AVANZADO" },
+  { id: 7, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yii/yii-original.svg", alt: "Yii", level: "AVANZADO" },
+  { id: 8, src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg", alt: "Git", level: "BASICO" },
+];
+
+const chunkArray = (arr, size) => {
+  const chunkedArr = [];
+  for (let i = 0; i < arr.length; i += size) {
+    chunkedArr.push(arr.slice(i, i + size));
+  }
+  return chunkedArr;
+};
+
 const About = () => {
+
+  const chunkedSkills = chunkArray(skills, 2);
+
   return (
     <section className="about main-section flex-column-mobile" id="about">
       {/* INFO HOLDER STARTS */}
@@ -11,7 +35,7 @@ const About = () => {
         >
           <div>
             <div>
-              <img className="my-photo" src="assets/about.jpg" alt="" />
+              <img className="my-photo" src="assets/p1.png" alt="" />
             </div>
           </div>
         </div>
@@ -119,79 +143,17 @@ const About = () => {
           {/* MAIN TITLE ENDS */}
         </div>
         {/* TITLE ENDS */}
-        <div className="skills-content">
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-html5-plain" />
-              </span>
-              <h4>HTLM</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-jquery-plain" />
-              </span>
-              <h4>jQuery</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-javascript-plain" />
-              </span>
-              <h4>Javascript</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-yii-plain" />
-              </span>
-              <h4>Yii</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-react-plain" />
-              </span>
-              <h4>React JS</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-docker-plain" />
-              </span>
-              <h4>Docker</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-nodejs-plain" />
-              </span>
-              <h4>Node JS</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-git-plain" />
-              </span>
-              <h4>Git</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
+        <div id="skills" className="skills-content container-fluid amg-skills">
+          {chunkedSkills.map((badgePair, index) => (
+              <div style={{placeContent:'center',}} key={index}> {/* Este es el div sin clase que necesitas */}
+                 {badgePair.map(skill => (
+                  <div key={skill.id} className="col-xs-3 amg-badge">
+                     <Skills src={skill.src} alt={skill.alt} />
+                     <h3>{skill.level}</h3>
+                  </div>
+                ))}
+              </div>
+            ))}
         </div>
       </div>
       {/* SKILLS ENDS */}

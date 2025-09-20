@@ -71,3 +71,13 @@
   object-fit: cover;
   z-index: -1;
 }
+
+.amg-badge {
+  padding: 20px 5%;
+}
+.amg-badge h3 {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}

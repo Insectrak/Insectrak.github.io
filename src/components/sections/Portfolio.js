@@ -31,45 +31,45 @@ const Portfolio = () => {
           <div className="main-content">
             <img
               className="img-fluid"
-              src="assets/portfolio/project-1.jpg"
+              src="assets/portfolio/PL2.png"
               alt="Image Project"
             />
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Image Project</h4>
+            <h4>Raices Sostenibles</h4>
             <div>
               <ul>
                 <li>
                   <span>
-                    <i className="fa-regular fa-file-lines" /> Project :
+                    <i className="fa-regular fa-file-lines" /> Proyecto :
                   </span>
                   <span>Website</span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-user" /> Client :
+                    <i className="fa-regular fa-user" /> Cliente :
                   </span>
-                  <span>Envato</span>
+                  <span>Grupo Inmobiliarioes </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
+                    <i className="fa-regular fa-hourglass" /> Duración :
                   </span>
-                  <span>3 months</span>
+                  <span>2 meses </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Lenguaje :
                   </span>
-                  <span>WordPress</span>
+                  <span>React js</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://www.raicessostenibles.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                Visitar <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -80,49 +80,47 @@ const Portfolio = () => {
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
-            <div className="videocontainer">
-              <iframe
-                className="youtube-video"
-                src="https://www.youtube.com/embed/AqcjdkPMPJA?enablejsapi=1&version=3&playerapiid=ytplayer"
-                allowFullScreen=""
-              />
-            </div>
+            <img
+              className="img-fluid"
+              src="assets/portfolio/PL1.png"
+              alt="Image Project"
+            />
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Youtube Project</h4>
+            <h4>Palma del río Inmobiliaria</h4>
             <div>
               <ul>
                 <li>
                   <span>
-                    <i className="fa-regular fa-file-lines" /> Project :
+                    <i className="fa-regular fa-file-lines" /> Proyecto :
                   </span>
-                  <span>Short Film</span>
+                  <span>Website</span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-user" /> Client :
+                    <i className="fa-regular fa-user" /> Cliente :
                   </span>
-                  <span>Videohive</span>
+                  <span>Palma del río </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
+                    <i className="fa-regular fa-hourglass" /> Duración :
                   </span>
-                  <span>8 months</span>
+                  <span>6 meses </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Lenguaje :
                   </span>
-                  <span>After Effects</span>
+                  <span>PHP</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://palmadelrioinmobiliaria.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                Visitar <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -130,8 +128,7 @@ const Portfolio = () => {
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
         {/* PORTFOLIO ITEM STARTS */}
-        <SwiperSlide className="single-item swiper-slide">
-          {/* ITEM MAIN CONTENT STARTS */}
+        {/*<SwiperSlide className="single-item swiper-slide">
           <div className="main-content">
             <Swiper
               {...salimovSlider.portfolioItems}
@@ -149,8 +146,6 @@ const Portfolio = () => {
               <div className="swiper-pagination" />
             </Swiper>
           </div>
-          {/* ITEM MAIN CONTENT ENDS */}
-          {/* ITEM DETAILS STARTS */}
           <div className="details">
             <h4>Slider Project</h4>
             <div>
@@ -187,60 +182,53 @@ const Portfolio = () => {
               </span>
             </a>
           </div>
-          {/* ITEM DETAILS ENDS */}
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* PORTFOLIO ITEM ENDS */}
         {/* PORTFOLIO ITEM STARTS */}
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
-            <a
-              href="https://themeforest.net"
-              target="_blank"
-              className="external"
-            >
-              <img
-                className="img-fluid"
-                src="assets/portfolio/project-3.jpg"
-                alt="External Project"
-              />
-            </a>
+            <img
+              className="img-fluid"
+              src="assets/portfolio/PL2.png"
+              alt="Image Project"
+            />
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>External Link</h4>
+            <h4>Raices Sostenibles</h4>
             <div>
               <ul>
                 <li>
                   <span>
-                    <i className="fa-regular fa-file-lines" /> Project :
+                    <i className="fa-regular fa-file-lines" /> Proyecto :
                   </span>
-                  <span>Advertising</span>
+                  <span>Website</span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-user" /> Client :
+                    <i className="fa-regular fa-user" /> Cliente :
                   </span>
-                  <span>Envato</span>
+                  <span>Grupo Inmobiliarioes </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
+                    <i className="fa-regular fa-hourglass" /> Duración :
                   </span>
-                  <span>1 month</span>
+                  <span>2 meses </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Lenguaje :
                   </span>
-                  <span>Adobe Premiere</span>
+                  <span>React js</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://www.raicessostenibles.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                Visitar <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
